@@ -13,7 +13,6 @@ print()
 
 inputCount=1
 tableNumber = int(input("Enter Table Number You Want To Print:"))
-convertTableInput=str(tableNumber)
 
 for i in range(tableNumber,tableNumber*10+1,tableNumber):
     print(tableNumber,"*",inputCount,"=",i)
